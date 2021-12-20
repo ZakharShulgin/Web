@@ -3,21 +3,20 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Турнирная таблица</title>
-		<meta name="keywords" content="турнир">
 		<link rel="stylesheet" type="text/css" href="style.css" />
 	</head>
 	<body>
 		<h1>Турнирная таблица</h1>
-		<table>
+		<table id="table">
 			<tr>
-				<th>№</th>
-				<th>Команда</th>
+				<th>№ <button src="images/sort.png" alt="" style="vertical-align:middle" onclick="sort(0)">sort</button></th>
+				<th>Команда <button src="images/sort.png" alt="" style="vertical-align:middle" onclick="sort(1)">sort</button></th>
 				<th>И</th>
 				<th>В</th>
 				<th>Н</th>
 				<th>П</th>
 				<th>Мячи</th>
-				<th>О</th>
+				<th>О <button src="images/sort.png" alt="" style="vertical-align:middle" onclick="sort(7)">sort</button></th>
 			</tr>
 			<tr>
 				<td>1</td>
@@ -27,7 +26,7 @@
 				<td>4</td>
 				<td>4</td>
 				<td>4</td>
-				<td>4</td>
+				<td>8</td>
 			</tr>
 			<tr>
 				<td>2</td>
@@ -37,7 +36,7 @@
 				<td>4</td>
 				<td>4</td>
 				<td>4</td>
-				<td>4</td>
+				<td>9</td>
 			</tr>
 			<tr>
 				<td>3</td>
@@ -47,7 +46,7 @@
 				<td>4</td>
 				<td>4</td>
 				<td>4</td>
-				<td>4</td>
+				<td>3</td>
 			</tr>
 			<tr>
 				<td>4</td>
@@ -57,7 +56,7 @@
 				<td>4</td>
 				<td>4</td>
 				<td>4</td>
-				<td>4</td>
+				<td>6</td>
 			</tr>
 			<tr>
 				<td>5</td>
@@ -77,8 +76,9 @@
 				<td>4</td>
 				<td>4</td>
 				<td>4</td>
-				<td>4</td>
+				<td>5</td>
 			</tr>
 		</table>
+		<script src="sort.js"></script>
 	</body>
 </html>
